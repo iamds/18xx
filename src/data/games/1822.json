@@ -1,0 +1,2829 @@
+{
+  "info": {
+    "title": "1822",
+    "subtitle": "The Railways of Great Britain",
+    "designer": "Simon Cutforth",
+    "background": "gray",
+    "titleX": 50,
+    "currency": "GBP"
+  },
+  "links": {
+    "bgg": "https://boardgamegeek.com/boardgame/193867/1822-railways-great-britain",
+    "rules": ""
+  },
+  "tokens": [
+    "Round"
+  ],
+  "ipo": true,
+  "bank": "£12,000",
+  "players": [
+    {
+      "number": 3,
+      "certLimit": 26,
+      "capital": "£700",
+      "biddingTokes": "6"
+    },
+    {
+      "number": 4,
+      "certLimit": 20,
+      "capital": "£525",
+      "biddingTokes": "5"
+    },
+    {
+      "number": 5,
+      "certLimit": 16,
+      "capital": "£420",
+      "biddingTokes": "4"
+
+    },
+    {
+      "number": 6,
+      "certLimit": 13,
+      "capital": "£350",
+      "biddingTokes": "3"
+    },
+    {
+      "number": 7,
+      "certLimit": 11,
+      "capital": "£300",
+      "biddingTokes": "3"
+    }
+  ],
+  "companies": [
+    {
+      "name": "London and North West Railway",
+      "abbrev": "LNWR",
+      "tokens": [
+        "Home",
+        "Destination",
+        "£100",
+        "£100",
+        "£100",
+        "£100",
+        "£100",
+        "Ex",
+        "Ex",
+        "Ex",
+        "Ex"
+      ],
+      "color": "black",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "Concession",
+	  "revenue": "£10",
+          "shares": 0
+        },
+        {
+          "quantity": 1,
+          "label": "Director's Certificate",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "Great Western Railway",
+      "abbrev": "GWR",
+      "tokens": [
+        "Home",
+        "Destination",
+        "£100",
+        "£100",
+        "£100",
+        "£100",
+        "Ex",
+        "Ex",
+        "Ex"
+      ],
+      "color": "green",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "Concession",
+	  "revenue": "£10",
+          "shares": 0
+        },
+        {
+          "quantity": 1,
+          "label": "Director's Certificate",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "London, Brighton and South Coast Railway",
+      "abbrev": "LBSCR",
+      "tokens": [
+        "Home",
+        "Destination",
+        "£100",
+        "£100",
+        "£100",
+        "£100",
+        "Ex",
+        "Ex",
+        "Ex"
+      ],
+      "color": "yellow",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "Concession",
+	  "revenue": "£10",
+          "shares": 0
+        },
+        {
+          "quantity": 1,
+          "label": "Director's Certificate",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "Caledonian Railway",
+      "abbrev": "C R",
+      "tokens": [
+        "Home",
+        "Destination",
+        "£100",
+        "£100",
+        "£100",
+        "£100",
+        "Ex",
+        "Ex",
+        "Ex"
+      ],
+      "color": "blue",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "Concession",
+	  "revenue": "£10",
+          "shares": 0
+        },
+         {
+          "quantity": 1,
+          "label": "Director's Certificate",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "Midland Railway",
+      "abbrev": "MR",
+      "tokens": [
+        "Home",
+        "Destination",
+        "£100",
+        "£100",
+        "£100",
+        "£100",
+        "Ex",
+        "Ex",
+        "Ex"
+      ],
+      "color": "red",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "Concession",
+	  "revenue": "£10",
+          "shares": 0
+        },
+         {
+          "quantity": 1,
+          "label": "Director's Certificate",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "Lancashire & Yorkshire",
+      "abbrev": "L&YR",
+      "tokens": [
+        "Home",
+        "Destination",
+        "£100",
+        "£100",
+        "£100",
+        "£100",
+        "Ex",
+        "Ex",
+        "Ex"
+      ],
+      "color": "purple",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "Concession",
+	  "revenue": "£10",
+          "shares": 0
+        },
+         {
+          "quantity": 1,
+          "label": "Director's Certificate",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "North British Railway",
+      "abbrev": "NBR",
+      "tokens": [
+        "Home",
+        "Destination",
+        "£100",
+        "£100",
+        "£100",
+        "£100",
+        "Ex",
+        "Ex",
+        "Ex"
+      ],
+      "color": "brown",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "Concession",
+	  "revenue": "£10",
+          "shares": 0
+        },
+         {
+          "quantity": 1,
+          "label": "Director's Certificate",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "South Wales Railway",
+      "abbrev": "SWR",
+      "tokens": [
+        "Home",
+        "Destination",
+        "£100",
+        "£100",
+        "£100",
+        "£100",
+        "Ex",
+        "Ex",
+        "Ex"
+      ],
+      "color": "gray",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "Concession",
+	  "revenue": "£10",
+          "shares": 0
+        },
+         {
+          "quantity": 1,
+          "label": "Director's Certificate",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "North Eastern Railway",
+      "abbrev": "NER",
+      "tokens": [
+        "Home",
+        "Destination",
+        "£100",
+        "£100",
+        "£100",
+        "£100",
+        "Ex",
+        "Ex",
+        "Ex"
+      ],
+      "color": "lime",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "Concession",
+	  "revenue": "£10",
+          "shares": 0
+        },
+        {
+          "quantity": 1,
+          "label": "Director's Certificate",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+	    "name": "Great North of Scotland Railway",
+	    "abbrev": "1",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "Lanarkshire & Dunbartonshire Railway",
+	    "abbrev": "2",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "Edinburgh & Dalkeith Railway",
+	    "abbrev": "3",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "Newcastle & North Shields Railway",
+	    "abbrev": "4",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "Stockton and Darlington Railway ",
+	    "abbrev": "5",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "Furness Railway",
+	    "abbrev": "6",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "Warrington & Newton Railway",
+	    "abbrev": "7",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "Manchester Sheffield & Lincolnshire Railway",
+	    "abbrev": "8",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "East Lincolnshire Railway",
+	    "abbrev": "9",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "Grand Junction Railway",
+	    "abbrev": "10",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "Great Northern Railway",
+	    "abbrev": "11",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "Eastern Union Railway",
+	    "abbrev": "12",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "Headcorn & Maidstone Junction Light Railway",
+	    "abbrev": "13",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "Metropolitan Railway",
+	    "abbrev": "14",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "London Tilbury & Southend Railway",
+	    "abbrev": "15",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "London & Birmingham Railway",
+	    "abbrev": "16",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "London & Southampton Railway",
+	    "abbrev": "17",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "Somerset & Dorset Joint Railway",
+	    "abbrev": "18",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "Penarth Harbour & Dock Railway Company",
+	    "abbrev": "19",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "Monmouthshire Railway & Canal Company",
+	    "abbrev": "20",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "Taff Vale railway",
+	    "abbrev": "21",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "Exeter and Crediton Railway",
+	    "abbrev": "22",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "West Cornwall Railway",
+	    "abbrev": "23",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    },
+    {
+	    "name": "Swansea and Mumbles Railway ",
+	    "abbrev": "24",
+	    "tokens": [
+	    ],
+	    "color": "white",
+	    "shares": [
+		    {
+			    "quantity": 1,
+			    "label": "Director's Certificate",
+			    "percent": 50,
+			    "shares": 2
+		    }
+	    ]
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ],
+  "trains": [
+    {
+      "name": "L",
+      "quantity": 22,
+      "price": "£60",
+      "color": "yellow",
+      "info": [
+        {
+          "color": "green",
+          "note": "Rusted by 3"
+        }
+      ]
+    },
+    {
+      "name": "2",
+      "quantity": 22,
+      "price": "£120",
+      "color": "yellow",
+      "description": "Cost £80 when trading in an L",
+      "info": [
+        {
+          "color": "green",
+          "note": "Rusted by 4"
+        }
+      ]
+    },
+    {
+      "name": "3",
+      "quantity": 9,
+      "price": "£200",
+      "color": "green",
+      "info": [
+        {
+          "color": "brown",
+          "note": "Rusted by 6"
+        }
+      ]
+    },
+    {
+      "name": "4",
+      "quantity": 6,
+      "price": "£300",
+      "color": "green",
+      "info": [
+        {
+          "color": "gray",
+          "note": "Rusted by 7/E"
+        }
+      ]
+    },
+    {
+      "name": "5",
+      "quantity": 3,
+      "price": "£500",
+      "color": "brown",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "6",
+      "quantity": 3,
+      "price": "£600",
+      "color": "brown",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "7",
+      "quantity": 7,
+      "price": "£750",
+      "color": "gray",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "E",
+      "quantity": 7,
+      "price": "£1000",
+      "color": "gray",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "2P",
+      "quantity": 2,
+      "color": "yellow",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "P+",
+      "quantity": 2,
+      "color": "yellow",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "5p",
+      "quantity": 1,
+      "color": "brown",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    }
+
+
+
+  ],
+  "privates": [
+	  {
+		  "companyName": "Butterley Engineering Company (BEC)",
+		  "price": "£5",
+		  "minor": "N",
+		  "phase": "5",
+		  "name": "5-Train",
+		  "description": "This is a normal 5-train that is subject to all of the normal rules. Note that a company can acquire this private company at the start of its turn, even if it is already at its train limit as this counts as an acquisition action, not a train buying action. However, once acquired the acquiring company needs to check whether it is at train limit and discard any trains held in excess of limit."
+	  },
+	  {
+		  "companyName": "Middleton Railway (MtonR)",
+		  "price": "£10",
+		  "minor": "Y",
+		  "phase": "2",
+		  "name": "Remove Small Station",
+		  "description": "Allows the owning company to place a plain yellow track tile directly on an undeveloped small station hex location or upgrade a small station tile of one colour to a plain track tile of the next colour. This closes the company and counts as the company’s normal track laying step. All other normal track laying restrictions apply. Once acquired, the private company pays its revenue to the owning company until the power is exercised and the company is closed."
+	  },
+	  {
+		  "companyName": "Shrewsbury and Hereford Railway (S&HR)",
+		  "price": "£0",
+		  "minor": "N",
+		  "phase": "2",
+		  "name": "Permanent 2-Train",
+		  "description": "2P-train is a permanent 2-train. It cannot be sold to another company. It does not count against train limit. It does not count as a train for the purpose of mandatory train ownership and purchase. A company may not own more than one 2P train.  Dividends can be separated from other trains and may be split, paid in full, or retained. If a company runs a 2P-train and pays a dividend (split or full), but retains its dividend from other train operations this still counts as a normal dividend for stock price movement purposes. Vice-versa, if a company pays a dividend (split or full) with its other trains, but retains the dividend from the 2P, this also still counts as a normal dividend for stock price movement purposes. Does not close."
+	  },
+	  {
+		  "companyName": "South Devon Railway (SDR)",
+		  "price": "£0",
+		  "minor": "N",
+		  "phase": "2",
+		  "name": "Permanent 2-Train",
+		  "description": "2P-train is a permanent 2-train. It cannot be sold to another company. It does not count against train limit. It does not count as a train for the purpose of mandatory train ownership and purchase. A company may not own more than one 2P train.  Dividends can be separated from other trains and may be split, paid in full, or retained. If a company runs a 2P-train and pays a dividend (split or full), but retains its dividend from other train operations this still counts as a normal dividend for stock price movement purposes. Vice-versa, if a company pays a dividend (split or full) with its other trains, but retains the dividend from the 2P, this also still counts as a normal dividend for stock price movement purposes. Does not close."
+	  },
+	  {
+		  "companyName": "London, Chatham and Dover Railway (LC&DR)",
+		  "price": "£10",
+		  "minor": "N",
+		  "phase": "3",
+		  "name": "English Channel",
+		  "description": "The owning company may place an exchange station token on the map, free of charge, in a token space in the English Channel. The company does not need to be able to trace a route to the English Channel to use this property (i.e. any company can use this power to place a token in the English Channel). If no token spaces are available, but a space could be created by upgrading the English Channel track then this power may be used to place a token and upgrade the track simultaneously. This counts as the acquiring company’s tile lay action and incurs the usual costs for doing so. Alternatively, it can move an exchange station token to the available station token section on its company charter. "
+	  },
+	  {
+		  "companyName": "Leeds & Selby Railway (L&SR)",
+		  "price": "£10",
+		  "minor": "N",
+		  "phase": "3",
+		  "name": "Mail Contract",
+		  "description": "After running trains, the owning company receives income into its treasury equal to one half of the base value of the start and end stations from one of the trains operated. Doubled values (for E trains or destination tokens) do not count. The company is not required to maximise the dividend from its run if it wishes to maximise its revenue from the mail contract by stopping at a large city and not running beyond it to include small stations. Does not close."
+	  },
+	  {
+		  "companyName": "Shrewsbury and Birmingham Railway (S&BR)",
+		  "price": "£10",
+		  "minor": "N",
+		  "phase": "3",
+		  "name": "Mail Contract",
+		  "description": "After running trains, the owning company receives income into its treasury equal to one half of the base value of the start and end stations from one of the trains operated. Doubled values (for E trains or destination tokens) do not count. The company is not required to maximise the dividend from its run if it wishes to maximise its revenue from the mail contract by stopping at a large city and not running beyond it to include small stations. Does not close."
+	  },
+	  {
+		  "companyName": "Edinburgh and Glasgow Railway (E&GR)",
+		  "price": "£10",
+		  "minor": "Y",
+		  "phase": "3",
+		  "name": "Mountain/Hill Discount",
+		  "description": "Either: The acquiring company receives a discount token that can be used to pay the full cost of a single track tile lay on a rough terrain, hill or mountain hex. This closes the company. Or: The acquiring company rejects the token and receives a £20 discount off the cost of all hill and mountain terrain (i.e. NOT off the cost of rough terrain). The private company does not close.  Closes if free token taken when acquired. Otherwise, flips when acquired and does not close."
+	  },
+	  {
+		  "companyName": "Midland and Great Northern Joint Railway (M&GNR)",
+		  "price": "£10",
+		  "minor": "Y",
+		  "phase": "3",
+		  "name": "Declare 2x Cash Holding",
+		  "description": "If held by a player, the holding player may declare double their actual cash holding at the end of a stock round to determine player turn order in the next stock round. If held by a company it pays revenue of £20 (green)/£40 (brown)/£60 (grey).  Does not close."
+	  },
+	  {
+		  "companyName": "Glasgow and South-Western Railway (G&SWR)",
+		  "price": "£10",
+		  "minor": "Y",
+		  "phase": "3",
+		  "name": "River/Estuary Discount",
+		  "description": "The acquiring company receives two discount tokens each of which can be used to pay the cost for one track lay over an estuary crossing. They can be used on the same or different tile lays. Use of the second token closes the company. In addition, until the company closes it provides a discount of £10 against the cost of all river terrain (excluding estuary crossings)."
+	  },
+	  {
+		  "companyName": "Bristol & Exeter Railway (B&ER)",
+		  "price": "£10",
+		  "minor": "Y",
+		  "phase": "2",
+		  "name": "Advanced Tile Lay",
+		  "description": "The owning company may lay one plain or small station track upgrade using the next colour of track to be available, before it is actually made available by phase progression. The normal rules for progression of track lay must be followed (i.e. grey upgrades brown upgrades green upgrades yellow) it is not possible to skip a colour using this private. All other normal track laying restrictions apply.  This is in place of its normal track lay action. Once acquired, the private company pays its revenue to the owning company until the power is exercised and the company closes."
+	  },
+	  {
+		  "companyName": "Leicester & Swannington Railway (L&SR)",
+		  "price": "£10",
+		  "minor": "Y",
+		  "phase": "3",
+		  "name": "Extra Tile Lay",
+		  "description": "The owning company may lay an additional yellow tile (or two for major companies), or make one additional tile upgrade in its track laying step. The upgrade can be to a tile laid in its normal tile laying step. All other normal track laying restrictions apply.  Once acquired, the private company pays its revenue to the owning company until the power is exercised and the company closes."
+	  },
+	  {
+		  "companyName": "York, Newcastle and Berwick Railway (YN&BR)",
+		  "price": "£10",
+		  "minor": "Y",
+		  "phase": "5",
+		  "name": "Pullman",
+		  "description": "A “Pullman” carriage train that can be added to another train owned by the company. It converts the train into a + train. Does not count against train limit and does not count as a train for the purposes of train ownership. Cannot be sold to another company. Does not close."
+	  },
+	  {
+		  "companyName": "Kilmarnock and Troon Railway (K&TR)",
+		  "price": "£10",
+		  "minor": "Y",
+		  "phase": "5",
+		  "name": "Pullman",
+		  "description": "A “Pullman” carriage train that can be added to another train owned by the company. It converts the train into a + train. Does not count against train limit and does not count as a train for the purposes of train ownership. Cannot be sold to another company. Does not close."
+	  },
+	  {
+		  "companyName": "Highland Railway (HR)",
+		  "price": "£10x",
+		  "minor": "Y",
+		  "phase": "2",
+		  "name": "£10x Phase",
+		  "description": "Pays revenue of £10 x phase number to the player, and pays treasury credits of £10 x phase number to the private company. This credit is retained on the private company charter. When acquired, the acquiring company receives this treasury money and this private company closes. If not acquired beforehand, this company closes at the start of Phase 7 and all treasury credits are returned to the bank."
+	  },
+	  {
+		  "companyName": "Off-Shore Tax Haven",
+		  "price": "£0",
+		  "minor": "N",
+		  "phase": "X",
+		  "name": "Tax Haven",
+		  "description": "As a stock round action, under the direction and funded by the owning player, the off-shore Tax Haven may purchase an available share certificate and place it onto P16’s charter. The certificate is not counted for determining directorship of a company.  The share held in the tax haven does NOT count against the 60% share limit for purchasing shares.  If at 60% (or more) in hand in a company, a player can still purchase an additional share in that company and place it in the tax haven.  Similarly, if a player holds 50% of a company, plus has 10% of the same company in the tax haven, they can buy a further 10% share.  A company with a share in the off-shore tax haven CAN be “all sold out” at the end of a stock round. Dividends paid to the share are also placed onto the off-shore tax haven charter. At the end of the game, the player receives the share certificate from the off-shore tax haven charter and includes it in their portfolio for determining final worth. The player also receives the cash from dividend income accumulated on the charter. Cannot be acquired. Does not count against the certificate limit."
+	  },
+	  {
+		  "companyName": "Lancashire Union Railway",
+		  "price": "£10",
+		  "minor": "N",
+		  "phase": "2",
+		  "name": "Move Card",
+		  "description": "Allows the director of the owning company to select one concession, private company, or minor company from the relevant stack of certificates, excluding those items currently in the bidding boxes, and move it to the top or the bottom of the stack. Closes when the power is exercised."
+	  },
+	  {
+		  "companyName": "Cromford and High Peak Railway",
+		  "price": "£10",
+		  "minor": "N",
+		  "phase": "5",
+		  "name": "Station Marker Swap",
+		  "description": "Allows the owning company to move a token from the exchange token area of its charter to the available token area, or vice versa. This company closes when its power is exercised."
+	  }
+
+  ],
+
+  "phases": [
+  ],
+  "pools": [
+    {
+      "name": "Market",
+      "notes": [
+        {
+          "color": "orange",
+          "note": "Shares in the market pay dividends to the corporation"
+        },
+        {
+          "color": "brown",
+          "icon": "exclamation",
+          "note": "No more than 50% of a corporation's shares may be in the market at any time"
+        },
+        {
+          "color": "red",
+          "icon": "times",
+          "note": "Shares cannot be sold during the first stock round"
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "name": "OR2",
+      "color": "grey"
+    },
+    {
+      "name": "OR1",
+      "color": "grey"
+    },
+    {
+      "name": "SR",
+      "color": "gray"
+    }
+  ],
+  "turns": [
+    {
+      "name": "Stock Round",
+      "steps": [
+        "Sell any number of shares",
+        "Repay loands",
+        "One of: Buy share certificate, Convert concession, Place or increase bid"
+      ],
+      "ordered": true
+    },
+    {
+      "name": "Operating Round",
+      "steps": [
+	      "Perform first turn housekeeping (first turn only, compulsory).",
+	      "Acquire private companies",
+	      "Lay or upgrade track",
+	      "Place destination token",
+	      "Place one station token",
+	      "Run trains",
+	      "Pay, split, or withhold dividends",
+	      "Purchase trains",
+	      "Acquire a minor company",
+	      "Issue or redeem corporate stock"
+      ],
+      "ordered": true
+    }
+  ],
+  "stock": {
+    "type": "2D",
+    "movement": {
+      "up": [
+        "Sold out"
+      ],
+      "left": [
+        "Zero dividend"
+      ],
+      "right": [
+        "Dividend >= share price (up to 2)"
+      ]
+    },
+    "market": [
+	    [
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    550,
+		    600,
+		    650,
+		    700
+	    ],
+	    [
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    330,
+		    360,
+		    400,
+		    450,
+		    500,
+		    550,
+		    600,
+		    {
+			    "value": 650,
+			    "label": 650,
+			    "arrow": "up"
+		    }
+	    ],
+	    [
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    null,
+		    200,
+		    220,
+		    245,
+		    270,
+		    300,
+		    330,
+		    360,
+		    400,
+		    450,
+		    500,
+		    550,
+		    {
+			    "value": 600,
+			    "label": 600,
+			    "arrow": "up"
+		    }
+	    ],
+
+
+
+
+
+
+      [
+        {
+          "value": 60,
+          "label": 60,
+          "legend": 0,
+          "arrow": "down"
+        },
+        67,
+        71,
+        76,
+        82,
+        90,
+        {
+          "value": 100,
+          "label": 100,
+          "par": true
+        },
+        112,
+        126,
+        142,
+        160,
+        180,
+        200,
+        225,
+        250,
+        275,
+        300,
+        325,
+        350
+      ],
+      [
+        {
+          "value": 53,
+          "label": 53,
+          "legend": 0,
+          "arrow": "down"
+        },
+        {
+          "value": 60,
+          "label": 60,
+          "legend": 0
+        },
+        66,
+        70,
+        76,
+        82,
+        {
+          "value": 90,
+          "label": 90,
+          "par": true
+        },
+        100,
+        112,
+        126,
+        142,
+        160,
+        180,
+        200,
+        220,
+        240,
+        260,
+        280,
+        {
+          "value": 300,
+          "label": 300,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 46,
+          "label": 46,
+          "legend": 0,
+          "arrow": "down"
+        },
+        {
+          "value": 55,
+          "label": 55,
+          "legend": 0
+        },
+        {
+          "value": 60,
+          "label": 60,
+          "legend": 0
+        },
+        65,
+        70,
+        76,
+        {
+          "value": 82,
+          "label": 82,
+          "par": true
+        },
+        90,
+        100,
+        111,
+        125,
+        140,
+        155,
+        170,
+        185,
+        {
+          "value": 200,
+          "label": 200,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 39,
+          "label": 39,
+          "legend": 1,
+          "arrow": "down"
+        },
+        {
+          "value": 48,
+          "label": 48,
+          "legend": 0
+        },
+        {
+          "value": 54,
+          "label": 54,
+          "legend": 0
+        },
+        {
+          "value": 60,
+          "label": 60,
+          "legend": 0
+        },
+        66,
+        71,
+        {
+          "value": 76,
+          "label": 76,
+          "par": true
+        },
+        82,
+        90,
+        100,
+        110,
+        120,
+        {
+          "value": 130,
+          "label": 130,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 32,
+          "label": 32,
+          "legend": 1,
+          "arrow": "down"
+        },
+        {
+          "value": 41,
+          "label": 41,
+          "legend": 1
+        },
+        {
+          "value": 48,
+          "label": 48,
+          "legend": 0
+        },
+        {
+          "value": 55,
+          "label": 55,
+          "legend": 0
+        },
+        62,
+        67,
+        {
+          "value": 71,
+          "label": 71,
+          "par": true
+        },
+        76,
+        82,
+        90,
+        {
+          "value": 100,
+          "label": 100,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 25,
+          "label": 25,
+          "legend": 2,
+          "arrow": "down"
+        },
+        {
+          "value": 34,
+          "label": 34,
+          "legend": 1
+        },
+        {
+          "value": 42,
+          "label": 42,
+          "legend": 1
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0
+        },
+        {
+          "value": 58,
+          "label": 58,
+          "legend": 0
+        },
+        65,
+        {
+          "value": 67,
+          "label": 67,
+          "par": true
+        },
+        71,
+        75,
+        {
+          "value": 80,
+          "label": 80,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 18,
+          "label": 18,
+          "legend": 2,
+          "arrow": "down"
+        },
+        {
+          "value": 27,
+          "label": 27,
+          "legend": 2
+        },
+        {
+          "value": 36,
+          "label": 36,
+          "legend": 1
+        },
+        {
+          "value": 45,
+          "label": 45,
+          "legend": 1
+        },
+        {
+          "value": 54,
+          "label": 54,
+          "legend": 0
+        },
+        63,
+        67,
+        69,
+        {
+          "value": 70,
+          "label": 70,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 10,
+          "label": 10,
+          "legend": 2
+        },
+        {
+          "value": 12,
+          "label": 12,
+          "legend": 2
+        },
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 2
+        },
+        {
+          "value": 40,
+          "label": 40,
+          "legend": 1
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0
+        },
+        {
+          "value": 60,
+          "label": 60,
+          "legend": 0
+        },
+        67,
+        {
+          "value": 68,
+          "label": 68,
+          "arrow": "up"
+        }
+      ],
+      [
+        null,
+        {
+          "value": 10,
+          "label": 10,
+          "legend": 2
+        },
+        {
+          "value": 20,
+          "label": 20,
+          "legend": 2
+        },
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 2
+        },
+        {
+          "value": 40,
+          "label": 40,
+          "legend": 1
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0
+        },
+        {
+          "value": 60,
+          "label": 60,
+          "legend": 0,
+          "arrow": "up"
+        }
+      ],
+      [
+        null,
+        null,
+        {
+          "value": 10,
+          "label": 10,
+          "legend": 2
+        },
+        {
+          "value": 20,
+          "label": 20,
+          "legend": 2
+        },
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 2
+        },
+        {
+          "value": 40,
+          "label": 40,
+          "legend": 1
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0,
+          "arrow": "up"
+        }
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "value": 10,
+          "label": 10,
+          "legend": 2
+        },
+        {
+          "value": 20,
+          "label": 20,
+          "legend": 2
+        },
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 2
+        },
+        {
+          "value": 40,
+          "label": 40,
+          "legend": 1,
+          "arrow": "up"
+        }
+      ]
+    ],
+    "legend": [
+      {
+        "color": "yellow",
+        "description": "Shares of this corporation do not count toward the certificate limit",
+        "icon": "certificate"
+      },
+      {
+        "color": "orange",
+        "description": "Players may own more than 60% of this corporation",
+        "icon": "percentage"
+      },
+      {
+        "color": "brown",
+        "description": "Players may purchase any number of shares of this corporation in one stock action",
+        "icon": "money-bill-wave"
+      }
+    ]
+  },
+  "tiles": {
+    "1": 1,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "7": 4,
+    "8": 8,
+    "9": 7,
+    "14": 3,
+    "15": 2,
+    "16": 1,
+    "18": 1,
+    "19": 1,
+    "20": 1,
+    "23": 3,
+    "24": 3,
+    "25": 1,
+    "26": 1,
+    "27": 1,
+    "28": 1,
+    "29": 1,
+    "39": 1,
+    "40": 1,
+    "41": 2,
+    "42": 2,
+    "43": 2,
+    "44": 1,
+    "45": 2,
+    "46": 2,
+    "47": 1,
+    "53": 2,
+    "54": 1,
+    "55": 1,
+    "56": 1,
+    "57": 4,
+    "58": 2,
+    "59": 2,
+    "61": 2,
+    "62": 1,
+    "63": 3,
+    "64": 1,
+    "65": 1,
+    "66": 1,
+    "67": 1,
+    "68": 1,
+    "69": 1,
+    "70": 1
+  },
+  "map": {
+    "hexes": [
+      {
+        "color": "offboard",
+        "track": [
+          {
+            "type": "offboard",
+            "side": 4
+          }
+        ],
+        "removeBorders": [
+          5
+        ],
+        "hexes": [
+          "I1"
+        ]
+      },
+      {
+        "color": "gray",
+        "cities": [
+          {
+            "name": {
+              "name": "Lansing"
+            }
+          }
+        ],
+        "values": [
+          {
+            "angle": 90,
+            "percent": 0.667,
+            "value": 20
+          }
+        ],
+        "track": [
+          {
+            "side": 4
+          },
+          {
+            "side": 5
+          }
+        ],
+        "hexes": [
+          "D2"
+        ]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": "Chicago"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "40"
+            },
+            {
+              "color": "brown",
+              "cost": "70"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 3
+          },
+          {
+            "side": 4
+          },
+          {
+            "side": 5
+          }
+        ],
+        "hexes": [
+          "F2"
+        ]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "angle": 150,
+          "percent": 1,
+          "name": {
+            "name": "Gulf"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "cost": "60"
+            }
+          ]
+        },
+        "track": [
+          {
+            "type": "offboard",
+            "side": 3
+          },
+          {
+            "type": "offboard",
+            "side": 4
+          }
+        ],
+        "removeBorders": [
+          2
+        ],
+        "hexes": [
+          "J2"
+        ]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "angle": 120,
+            "percent": 0.4,
+            "name": {
+              "name": "Toledo",
+              "rotation": 30
+            }
+          }
+        ],
+        "water": {
+          "angle": 300,
+          "percent": 0.5,
+          "cost": "£80"
+        },
+        "hexes": [
+          "F4"
+        ]
+      },
+      {
+        "copy": "F4",
+        "cities": [
+          {
+            "name": {
+              "name": "Washington"
+            }
+          }
+        ],
+        "hexes": [
+          "J14"
+        ]
+      },
+      {
+        "copy": "F4",
+        "cities": [
+          {
+            "name": {
+              "name": "Providence"
+            }
+          }
+        ],
+        "hexes": [
+          "F22"
+        ]
+      },
+      {
+        "color": "yellow",
+        "water": {
+          "angle": 180,
+          "percent": 0.6,
+          "cost": "£80"
+        },
+        "labels": [
+          {
+            "label": "OO",
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "angle": 65,
+            "percent": 0.6,
+            "name": {
+              "name": "Detroit"
+            }
+          },
+          {
+            "angle": 295,
+            "percent": 0.6,
+            "name": {
+              "name": "Windsor"
+            }
+          }
+        ],
+        "hexes": [
+          "E5"
+        ]
+      },
+      {
+        "copy": "E5",
+        "cities": [
+          {
+            "name": {
+              "name": "Hamilton"
+            }
+          },
+          {
+            "name": {
+              "name": "Toronto"
+            }
+          }
+        ],
+        "hexes": [
+          "D10"
+        ]
+      },
+      {
+        "copy": "A17",
+        "values": [
+          {
+            "angle": 180,
+            "percent": 0.333,
+            "value": 30
+          }
+        ],
+        "cities": [
+          {
+            "percent": 0.5,
+            "name": {
+              "name": "Cleveland"
+            },
+            "companies": [
+              "C&O"
+            ]
+          }
+        ],
+        "hexes": [
+          "F6"
+        ]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "London"
+            }
+          }
+        ],
+        "borders": [
+          {
+            "side": 5,
+            "color": "water"
+          }
+        ],
+        "hexes": [
+          "E7"
+        ]
+      },
+      {
+        "color": "plain",
+        "borders": [
+          {
+            "side": 2,
+            "color": "water"
+          }
+        ],
+        "hexes": [
+          "F8"
+        ]
+      },
+      {
+        "color": "offboard",
+        "track": [
+          {
+            "type": "offboard",
+            "side": 5
+          }
+        ],
+        "removeBorders": [
+          4
+        ],
+        "hexes": [
+          "A9"
+        ]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "sharp",
+            "side": 2
+          }
+        ],
+        "hexes": [
+          "E9"
+        ]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "angle": 90,
+          "percent": 1,
+          "name": {
+            "name": "Canadian West"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "cost": "50"
+            }
+          ]
+        },
+        "track": [
+          {
+            "type": "offboard",
+            "side": 5
+          },
+          {
+            "type": "offboard",
+            "side": 6
+          }
+        ],
+        "removeBorders": [
+          1
+        ],
+        "hexes": [
+          "A11"
+        ]
+      },
+      {
+        "color": "plain",
+        "borders": [
+          {
+            "side": 5,
+            "color": "water"
+          }
+        ],
+        "hexes": [
+          "C11"
+        ]
+      },
+      {
+        "color": "plain",
+        "borders": [
+          {
+            "side": 6,
+            "color": "water"
+          }
+        ],
+        "hexes": [
+          "C13"
+        ]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "reverse": true,
+          "name": {
+            "name": "Deep South"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "cost": "40"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 2
+          },
+          {
+            "side": 3
+          }
+        ],
+        "hexes": [
+          "K13"
+        ]
+      },
+      {
+        "color": "yellow",
+        "labels": [
+          {
+            "label": "OO",
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "angle": 75,
+            "percent": 0.55,
+            "name": {
+              "name": "Dunkirk"
+            }
+          },
+          {
+            "angle": 285,
+            "percent": 0.55,
+            "name": {
+              "name": "Buffalo"
+            },
+            "companies": [
+              "ERIE"
+            ]
+          }
+        ],
+        "hexes": [
+          "E11"
+        ]
+      },
+      {
+        "color": "plain",
+        "borders": [
+          {
+            "color": "water",
+            "side": 2
+          },
+          {
+            "color": "water",
+            "side": 3
+          }
+        ],
+        "hexes": [
+          "D12"
+        ]
+      },
+      {
+        "color": "gray",
+        "values": [
+          {
+            "value": 10,
+            "percent": 0.8,
+            "angle": 180
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Altoona"
+            },
+            "companies": [
+              "PRR"
+            ]
+          }
+        ],
+        "track": [
+          {
+            "type": "straight",
+            "side": 1
+          },
+          {
+            "type": "bent",
+            "side": 1
+          }
+        ],
+        "hexes": [
+          "H12"
+        ]
+      },
+      {
+        "color": "plain",
+        "hexes": [
+          "I13"
+        ]
+      },
+      {
+        "color": "gray",
+        "cities": [
+          {
+            "name": {
+              "name": "Rochester"
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "y": -60
+          }
+        ],
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 4
+          },
+          {
+            "side": 6
+          }
+        ],
+        "hexes": [
+          "D14"
+        ]
+      },
+      {
+        "color": "gray",
+        "values": [
+          {
+            "value": 10,
+            "angle": -30,
+            "percent": 0.5
+          }
+        ],
+        "towns": [
+          {
+            "rotation": 60,
+            "angle": 150,
+            "percent": 0.26,
+            "name": {
+              "name": "Kingston",
+              "reverse": true
+            }
+          }
+        ],
+        "track": [
+          {
+            "type": "gentle",
+            "side": 1
+          }
+        ],
+        "hexes": [
+          "C15"
+        ]
+      },
+      {
+        "color": "plain",
+        "mountain": {
+          "cost": "£120",
+          "percent": 0.333
+        },
+        "companies": [
+          {
+            "label": "SVR",
+            "angle": 180,
+            "percent": 0.333
+          }
+        ],
+        "hexes": [
+          "G15"
+        ]
+      },
+      {
+        "color": "yellow",
+        "labels": [
+          {
+            "label": "B",
+            "angle": 150,
+            "percent": 0.7
+          }
+        ],
+        "companies": [
+          {
+            "label": "B&O",
+            "angle": 90,
+            "percent": 1.35,
+            "bottom": true,
+            "right": 40,
+            "color": "blue"
+          }
+        ],
+        "values": [
+          {
+            "value": 30,
+            "angle": 210,
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Baltimore",
+              "reverse": true,
+              "rotation": -30
+            },
+            "companies": [
+              "B&O"
+            ]
+          }
+        ],
+        "track": [
+          {
+            "side": 4
+          },
+          {
+            "side": 6
+          }
+        ],
+        "hexes": [
+          "I15"
+        ]
+      },
+      {
+        "color": "gray",
+        "cities": [
+          {
+            "name": {
+              "name": "Richmond",
+              "reverse": true
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 270,
+            "percent": 0.66
+          }
+        ],
+        "track": [
+          {
+            "side": 2
+          }
+        ],
+        "hexes": [
+          "K15"
+        ]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Ottowa"
+            }
+          }
+        ],
+        "borders": [
+          {
+            "side": 5,
+            "color": "water"
+          }
+        ],
+        "hexes": [
+          "B16"
+        ]
+      },
+      {
+        "color": "plain",
+        "mountain": {
+          "cost": "£120",
+          "percent": 0.5,
+          "angle": 180
+        },
+        "cities": [
+          {
+            "angle": -45,
+            "percent": 0.5,
+            "name": {
+              "name": "Scranton",
+              "rotation": 45
+            }
+          }
+        ],
+        "companies": [
+          {
+            "label": "D&H",
+            "angle": 60,
+            "percent": 0.57
+          }
+        ],
+        "hexes": [
+          "F16"
+        ]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "sharp",
+            "side": 5
+          }
+        ],
+        "hexes": [
+          "A17"
+        ]
+      },
+      {
+        "color": "plain",
+        "mountain": {
+          "cost": "£120"
+        },
+        "borders": [
+          {
+            "side": 2,
+            "color": "water"
+          }
+        ],
+        "hexes": [
+          "C17"
+        ]
+      },
+      {
+        "color": "plain",
+        "companies": [
+          {
+            "label": "M&H"
+          }
+        ],
+        "hexes": [
+          "D18"
+        ]
+      },
+      {
+        "color": "yellow",
+        "companies": [
+          {
+            "label": "C&A",
+            "angle": 180,
+            "percent": 0.65
+          }
+        ],
+        "labels": [
+          {
+            "label": "OO",
+            "y": 57
+          }
+        ],
+        "cities": [
+          {
+            "x": -40,
+            "y": 10,
+            "name": {
+              "name": "Philadelphia"
+            }
+          },
+          {
+            "x": 40,
+            "y": 10,
+            "name": {
+              "name": "Trenton"
+            }
+          }
+        ],
+        "hexes": [
+          "H18"
+        ]
+      },
+      {
+        "copy": "F6",
+        "values": [
+          {
+            "value": 40
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Montreal"
+            },
+            "companies": [
+              "CPR"
+            ]
+          }
+        ],
+        "hexes": [
+          "A19"
+        ]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Albany"
+            },
+            "companies": [
+              "NYC"
+            ]
+          }
+        ],
+        "hexes": [
+          "E19"
+        ]
+      },
+      {
+        "color": "yellow",
+        "values": [
+          {
+            "angle": 180,
+            "percent": 0.84,
+            "value": 40
+          },
+          {
+            "percent": 0.84,
+            "value": 40
+          }
+        ],
+        "cities": [
+          {
+            "angle": 230,
+            "percent": 0.6,
+            "name": {
+              "name": "New York",
+              "reverse": true
+            },
+            "companies": [
+              "NYNH"
+            ]
+          },
+          {
+            "angle": 50,
+            "percent": 0.6,
+            "name": {
+              "name": "Newark"
+            }
+          }
+        ],
+        "labels": [
+          {
+            "label": "NY",
+            "angle": 140,
+            "percent": 0.5
+          }
+        ],
+        "water": {
+          "angle": 310,
+          "percent": 0.7,
+          "cost": "£80"
+        },
+        "track": [
+          {
+            "type": "stop",
+            "side": 3
+          },
+          {
+            "type": "stop",
+            "side": 6
+          }
+        ],
+        "hexes": [
+          "G19"
+        ]
+      },
+      {
+        "color": "gray",
+        "towns": [
+          {
+            "angle": 120,
+            "percent": 0.57735,
+            "rotation": 30,
+            "name": {
+              "name": "Atlantic City",
+              "reverse": true
+            }
+          }
+        ],
+        "track": [
+          {
+            "type": "sharp",
+            "side": 1
+          }
+        ],
+        "values": [
+          {
+            "value": 10,
+            "angle": 300,
+            "percent": 0.2
+          }
+        ],
+        "hexes": [
+          "I19"
+        ]
+      },
+      {
+        "copy": "I19",
+        "towns": [
+          {
+            "name": {
+              "name": "Mansfield"
+            }
+          }
+        ],
+        "hexes": [
+          "F24"
+        ]
+      },
+      {
+        "color": "plain",
+        "companies": [
+          {
+            "label": "C&StL",
+            "percent": 0.5
+          }
+        ],
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Burlington"
+            }
+          }
+        ],
+        "hexes": [
+          "B20"
+        ]
+      },
+      {
+        "color": "yellow",
+        "labels": [
+          {
+            "angle": 150,
+            "percent": 0.7,
+            "label": "B"
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Boston",
+              "reverse": true,
+              "rotation": -90
+            },
+            "companies": [
+              "B&M"
+            ]
+          }
+        ],
+        "values": [
+          {
+            "value": 30,
+            "angle": 90,
+            "percent": 0.67
+          }
+        ],
+        "track": [
+          {
+            "side": 3
+          },
+          {
+            "side": 5
+          }
+        ],
+        "hexes": [
+          "E23"
+        ]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": "Maritime Provinces"
+          },
+          "revenues": [
+            {
+              "cost": "20",
+              "color": "yellow"
+            },
+            {
+              "cost": "30",
+              "color": "brown"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 1
+          },
+          {
+            "side": 6
+          }
+        ],
+        "hexes": [
+          "B24"
+        ]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "sharp",
+            "side": 6
+          }
+        ],
+        "hexes": [
+          "D24"
+        ]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Flint"
+            }
+          }
+        ],
+        "hexes": [
+          "D4"
+        ]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Erie"
+            }
+          }
+        ],
+        "hexes": [
+          "F10"
+        ]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "x": -30,
+            "name": {
+              "name": "Akron",
+              "reverse": true
+            }
+          },
+          {
+            "x": 30,
+            "name": {
+              "name": "Canton"
+            }
+          }
+        ],
+        "hexes": [
+          "G7"
+        ]
+      },
+      {
+        "copy": "G7",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Reading"
+            }
+          },
+          {
+            "name": {
+              "name": "Allentown"
+            }
+          }
+        ],
+        "hexes": [
+          "G17"
+        ]
+      },
+      {
+        "copy": "G7",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "New Haven"
+            }
+          },
+          {
+            "name": {
+              "name": "Hartford"
+            }
+          }
+        ],
+        "hexes": [
+          "F20"
+        ]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Columbus"
+            }
+          }
+        ],
+        "hexes": [
+          "H4"
+        ]
+      },
+      {
+        "copy": "H4",
+        "cities": [
+          {
+            "name": {
+              "name": "Barrie"
+            }
+          }
+        ],
+        "hexes": [
+          "B10"
+        ]
+      },
+      {
+        "copy": "H4",
+        "cities": [
+          {
+            "name": {
+              "name": "Pittsburgh"
+            }
+          }
+        ],
+        "hexes": [
+          "H10"
+        ]
+      },
+      {
+        "copy": "H4",
+        "cities": [
+          {
+            "name": {
+              "name": "Lancaster"
+            }
+          }
+        ],
+        "hexes": [
+          "H16"
+        ]
+      },
+      {
+        "color": "plain",
+        "water": {
+          "cost": "£80"
+        },
+        "hexes": [
+          "D6",
+          "I17",
+          "B18",
+          "C19"
+        ]
+      },
+      {
+        "color": "plain",
+        "mountain": {
+          "cost": "£120"
+        },
+        "hexes": [
+          "C21",
+          "D22",
+          "E17",
+          "E21",
+          "G13",
+          "I11",
+          "J10",
+          "J12"
+        ]
+      },
+      {
+        "color": "plain",
+        "hexes": [
+          "B12",
+          "B14",
+          "B22",
+          "C7",
+          "C9",
+          "C23",
+          "D8",
+          "D16",
+          "D20",
+          "E3",
+          "E13",
+          "E15",
+          "F12",
+          "F14",
+          "F18",
+          "G3",
+          "G5",
+          "G9",
+          "G11",
+          "H2",
+          "H6",
+          "H8",
+          "H14",
+          "I3",
+          "I5",
+          "I7",
+          "I9",
+          "J4",
+          "J6",
+          "J8"
+        ]
+      }
+    ]
+  }
+}
