@@ -1189,6 +1189,39 @@
       }
     ]
   },
+  "405": {
+    "color": "green",
+    "values": [
+      {
+        "angle": 210,
+        "percent": 0.75,
+        "value": 40
+      }
+    ],
+    "labels": [
+      {
+        "label": "T",
+        "angle": 150,
+        "percent": 0.75
+      }
+    ],
+    "cities": [
+      {
+        "size": 2
+      }
+    ],
+    "track": [
+      {
+        "side": 1
+      },
+      {
+        "side": 2
+      },
+      {
+        "side": 6
+      }
+    ]
+  },
   "439": {
     "color": "green",
     "rotations": 3,
@@ -5287,6 +5320,149 @@
       {
         "type": "sharp",
         "side": 3
+      }
+    ]
+  },
+  "1822X1": {
+    "color": "green",
+    "values": [
+      {
+        "angle": 330,
+        "percent": 0.85,
+        "value": 30
+      }
+    ],
+    "labels": [
+      {
+        "label": "C",
+        "angle": 90,
+        "percent": 0.85
+      }
+    ],
+    "cities": [
+      {
+        "size": 3
+      }
+    ],
+    "track": [
+      {
+        "side": 2
+      },
+      {
+        "side": 3
+      },
+      {
+        "side": 5
+      }
+    ]
+  },
+  "1822X2": {
+    "color": "green",
+    "values": [
+      {
+        "angle": 270,
+        "percent": 0.88,
+        "value": 50
+      }
+    ],
+    "labels": [
+      {
+        "label": "BM",
+        "angle": 90,
+        "percent": 0.86,
+	"rotate": 270
+      }
+    ],
+    "cities": [
+      {
+        "size": 3
+      }
+    ],
+    "track": [
+      {
+        "side": 2
+      },
+      {
+        "side": 3
+      },
+      {
+        "side": 4
+      },
+      {
+        "side": 5
+      },
+      {
+        "side": 6
+      }
+    ]
+  },
+  "1822X3": {
+    "color": "green",
+    "values": [
+      {
+        "angle": 150,
+        "percent": 0.75,
+        "value": 30
+      }
+    ],
+    "labels": [
+      {
+        "label": "S",
+        "angle": 210,
+        "percent": 0.75
+      }
+    ],
+    "cities": [
+      {
+        "size": 2
+      }
+    ],
+    "track": [
+      {
+        "side": 3
+      },
+      {
+        "side": 6
+      }
+    ]
+  },
+  "1822X4": {
+    "color": "green",
+    "values": [
+      {
+        "angle": 150,
+        "percent": 0.75,
+        "value": 0
+      }
+    ],
+    "names": [
+      {
+        "name": "£100",
+        "angle": 230,
+        "percent": 0.65
+      }
+    ],
+    "labels": [
+      {
+        "label": "EC",
+        "angle": 30,
+        "percent": 0.60
+      }
+    ],
+    "cities": [
+      {
+        "size": 1
+      }
+    ],
+    "track": [
+      {
+        "side": 3
+      },
+      {
+        "side": 4
+      },
+      {
+        "side": 6
       }
     ]
   }
